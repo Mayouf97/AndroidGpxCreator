@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zgr.gpxcreator.MainActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/app_name"
+            android:textColor="#fff"
+            android:textSize="@dimen/med_font_size"
+            android:textStyle="bold"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/create_gpx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/create_gpx_file"
+        android:textSize="@dimen/med_font_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.20" />
+
+
+    <Button
+        android:id="@+id/manually_button"
+        android:layout_width="@dimen/main_activity_buttons_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/manually"
+        android:onClick="onClick"
+        android:background="@drawable/oval_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_gpx"
+        app:layout_constraintVertical_bias="0.11" />
+
+
+    <Button
+        android:id="@+id/live_tracking_button"
+        android:layout_width="@dimen/main_activity_buttons_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/live_tracking"
+        android:onClick="onClick"
+        android:background="@drawable/oval_background"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manually_button" />
+
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/test_banner_key"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

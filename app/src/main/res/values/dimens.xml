@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_height">60dp</dimen>
+    <dimen name="main_activity_buttons_width">150dp</dimen>
+    <dimen name="control_tracking_button_size">55dp</dimen>
+    <!--Fonts-->
+    <dimen name="med_font_size">22sp</dimen>
+    <dimen name="normal_font_size">18sp</dimen>
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">GPX Creator</string>
+    <string name="create_and_share_your_favourite_tracks">create and share your favourite tracks</string>
+    <string name="gpx_creator">GPX CREATOR</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="create_gpx_file">Create Gpx File</string>
+    <string name="explaining_message">The App needs location permission to determine your current location</string>
+    <string name="ok">OK !</string>
+    <string name="start_select_points">Select Manually</string>
+    <string name="selecting">Selecting</string>
+    <string name="folder_name">Gpx Files</string>
+    <string name="file_saved_under">File Saved Under </string>
+    <string name="title_activity_live_tracking">Map</string>
+    <string name="manually">Manually</string>
+    <string name="live_tracking">Live Tracking</string>
+    <string name="notification_description">Tracking Your Location</string>
+    <string name="activate">Active</string>
+    <string name="gps_off_title">Enable Location Services</string>
+    <string name="gps_off_dialog_message">Location Services needed to enable route tracking</string>
+
+    <!--Writing Permissions Alert Dialog Strings-->
+    <string name="permission_deny">Permission Denied !</string>
+    <string name="write_permission_explaining">The App Require Writing Permission To Save GPX Files</string>
+    <string name="ask_me_again">Ask Me Again !</string>
+
+    <!--Admob app id-->
+    <string name="test_banner_key">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="admob_key">PUT_YOUR_ADMOB_APP_KEY</string>
+    <string name="main_activity_banner">PUT_YOUR_BANNER_KEY_HERE</string>
+    <string name="live_tracking_activity_banner">PUT_YOUR_BANNER_KEY_HERE</string>
+    <string name="manually_activity_banner">PUT_YOUR_BANNER_KEY_HERE</string>
+
+</resources>
