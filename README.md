@@ -8,6 +8,8 @@ Android application written in java to create **GPX FILES** (exchangeable file t
 
 ![vd](https://cdn6.aptoide.com/imgs/2/2/e/22e9f07339e4193d389c9e75bac51da0_screen.png?h=900)
 
+![vd](https://cdn6.aptoide.com/imgs/4/2/3/4230239e4196016a83dc1f6bdd6ec327_screen.png?h=900)
+
 ### SETUP: 
 it's very simple [clone_repo](https://codeload.github.com/Mayouf97/AndroidGpxCreator/zip/master)  and open it with android studio. (don't forget to put your map api key in google_maps_api.xml)
 
